@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidsos.imageviewerwithoutanimation.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgZoomed"
+        />
+
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/lisboa1"
+        android:id="@+id/img1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/lisboa2"
+        android:id="@+id/img2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_toEndOf="@+id/img1" />
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/lisboa3"
+        android:id="@+id/img3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img2"
+        android:layout_toEndOf="@+id/img2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/lisboa4"
+        android:id="@+id/img4"
+        android:layout_below="@+id/img1"
+        android:layout_toLeftOf="@+id/img2"
+        android:layout_toStartOf="@+id/img2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/lisboa5"
+        android:id="@+id/img5"
+        android:layout_below="@+id/img2"
+        android:layout_toRightOf="@+id/img4"
+        android:layout_toEndOf="@+id/img4" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/lisboa6"
+        android:id="@+id/img6"
+        android:layout_below="@+id/img3"
+        android:layout_toEndOf="@+id/img5"
+        android:layout_toRightOf="@+id/img5" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/lisboa7"
+        android:id="@+id/img7"
+        android:layout_below="@+id/img4"
+        android:layout_toLeftOf="@+id/img2"
+        android:layout_toStartOf="@+id/img2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/lisboa8"
+        android:id="@+id/img8"
+        android:layout_below="@+id/img5"
+        android:layout_toRightOf="@+id/img7"
+        android:layout_toEndOf="@+id/img7" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="111dp"
+        android:maxHeight="111dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/lisboa9"
+        android:id="@+id/img9"
+        android:layout_below="@+id/img6"
+        android:layout_toRightOf="@+id/img8"
+        android:layout_toEndOf="@+id/img8" />
+</RelativeLayout>
